@@ -37,8 +37,8 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+I have Python 2.7 installed because at the open house it was mentioned that Metis is not yet using Python 3.
+To check what version of python is installed in an unfamiliar computer you would enter ' python --version ' at the command line.  
 ---
 
 
