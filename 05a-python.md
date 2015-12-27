@@ -23,12 +23,14 @@ How are Python lists and tuples similar and different? Which will work as keys i
 >>Python lists and sets are both collections of values. They can have any number of values and may be of different types but sets are an ordered collection of items and each item must be unique. There can not be any duplicates whereas in a list, duplicates can exist. Sets are also immutable and they require items to be hashable. Lists can be modified and their items are not required to be hashable. Even though the items in sets are immutable, the set itself is mutable, just like lists. items can be removed or added. Unlike lists, sets can be used to perform mathematical set operations like union, intersection, etc. List and set syntax is different. For example, to create a list square brackets are used. To assign a set, curly braces are used. 
 
 Examples:
+
 a_set= {1,2,3} #creating a set
 a_list= [1,2,2,3]#creating a list, duplicates are allowed
 
-To declare an empty set, the set() function must be used because empty curly braces will create a dictionary. 
+>>To declare an empty set, the set() function must be used because empty curly braces will create a dictionary. 
 
 Example:
+
 empty_set = {}#creates a dictionary
 empty_set = set() #creates a SET
 
