@@ -30,7 +30,6 @@ a_list= [1,2,2,3]#creating a list, duplicates are allowed
 >>To declare an empty set, the set() function must be used because empty curly braces will create a dictionary. 
 
 Example:
-
 empty_set = {}#creates a dictionary
 empty_set = set() #creates a SET
 
@@ -45,13 +44,11 @@ empty_set = set() #creates a SET
 >>The Lambda function is a way to create one line, small functions without a name. They are just needed where they have been created. Unlike regular functions, they use an abbreviated syntax and the return keyword is implied not assigned. The function is nameless and can be called by the variable it was assigned to, if one was assigned since variable assignment is not optional. It takes any number of arguments and returns the value of a single expression. 
 
 Example of a lambda multiplication function:
-
 a= lambda: 5*9*6
 
 >>Lambda is often used in the sorted() function because it can be specifically directly inline in the function. If we wanted to sort a tuple by the second value in each tuple, we could use a lambda function in the sorted() function to sort by the value we need thus eliminating a need to write a separate function for specifying a key. 
 
 Example:
-
 sorted(tuple_name, key=lambda tuple_name: tuple_name[1]
 
 >>That one line of code would return a tuple list sorted by its second value. 
@@ -67,7 +64,6 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>syntax: [ output_value for element in list ]
 
 Example:
-
 The following function builds a list that multiplies each item by 2 using map () function:
 my_list= [2,3,4]
   def multiply_by_two(x): 
@@ -83,7 +79,6 @@ new_list = [ x* 2 for x in my_list] #list comprehension
 >>Filter function allows you to create a new list from an old list based on conditions. 
 
 Example:
-
 my_list=[2,3,4,5,6,7]
 def even_num(x):
   if x % 2 ==0
@@ -95,23 +90,23 @@ new_list= filter(even_num, my_list)
 >>Same result could be had using list comprehension:
 
 Example:
-
 my_list= [2,3,4,5,6,7]
 new_list= x for x in my_list if x%2==0
 
 >>Set comprehension is similar to list comprehension but returns a set, not a list. The notation is similar to the traditional mathematical notation for expressing sets in terms of other sets.
 
 Example:
-
 old_set= {2,5,8}
 new_set= {2*x for x in old_set}
 
 >>Dictionary comprehension is used to create a new dictionary from an iterable item.
 
 Example:
-
 my_list= [1,2,3]
-new_dict = {x:x**2 for xin my_list}
+new_dict = {x:x**2 for x in my_list}
+
+
+
 ---
 
 ###Complete the following problems by editing the files below:
