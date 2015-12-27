@@ -111,7 +111,7 @@ new_set= {2*x for x in old_set}
 Example:
 
 my_list= [1,2,3]
-new_dict = {x:x**2 for x in my_list}
+new_dict = {x:x**2 for xin my_list}
 ---
 
 ###Complete the following problems by editing the files below:
