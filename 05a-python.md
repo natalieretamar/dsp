@@ -18,9 +18,9 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 ###Q2. Lists &amp; Sets
 
-How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
+>>How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Python lists and sets are both collections of values. They can have any number of values and may be of different types but sets are an ordered collection of items and each item must be unique. There can not be any duplicates whereas in a list, duplicates can exist. Sets are also immutable and they require items to be hashable. Lists can be modified and their items are not required to be hashable. Even though the items in sets are immutable, the set itself is mutable, just like lists. items can be removed or added. Unlike lists, sets can be used to perform mathematical set operations like union, intersection, etc. List and set syntax is different. For example, to create a list square brackets are used. To assign a set, curly braces are used. 
+>>Python lists and sets are both collections of values. They can have any number of values and may be of different types but sets are an ordered collection of items and each item must be unique. There can not be any duplicates whereas in a list, duplicates can exist. Sets are also immutable and they require items to be hashable. Lists can be modified and their items are not required to be hashable. Even though the items in sets are immutable, the set itself is mutable, just like lists. items can be removed or added. Unlike lists, sets can be used to perform mathematical set operations like union, intersection, etc. List and set syntax is different. For example, to create a list square brackets are used. To assign a set, curly braces are used. 
 
 Examples:
 a_set= {1,2,3} #creating a set
@@ -32,7 +32,7 @@ Example:
 empty_set = {}#creates a dictionary
 empty_set = set() #creates a SET
 
-Sets are faster with finding membership. Since the items are hashable, a set can locate if an item exists in a given set much quicker then a list because it does not have to iterate through each item in a list. the speed for finding an element in a set regardless of size is O(1) vs. the speed of finding an element in a list which is O(n).
+>>Sets are faster with finding membership. Since the items are hashable, a set can locate if an item exists in a given set much quicker then a list because it does not have to iterate through each item in a list. the speed for finding an element in a set regardless of size is O(1) vs. the speed of finding an element in a list which is O(n).
 
 ---
 
