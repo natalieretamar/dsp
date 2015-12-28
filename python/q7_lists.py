@@ -3,7 +3,18 @@
 
 
 def match_ends(words):
-    """
+    counter = 0
+    for x in words:
+        if len(x) >= 2:
+            x= list(x)
+            if x[0] == x[-1]:
+                counter += 1
+    print counter
+    return counter   
+
+
+
+     """
     Given a list of strings, return the count of the number of strings
     where the string length is 2 or more and the first and last chars
     of the string are the same.
@@ -19,6 +30,23 @@ def match_ends(words):
 
 
 def front_x(words):
+    new_list = []
+    temp = []
+    words.sort()
+
+    for x in range(len(words)):
+        if words[x][0] == 'x':
+            new_list.append(words[x])
+        else:
+            temp.append(words[x])
+
+    new_list = new_list + temp
+    print new_list
+    return new_list
+
+
+
+
     """
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
@@ -36,6 +64,13 @@ def front_x(words):
 
 
 def sort_last(tuples):
+    temp=()
+    #sorting tuple by second element
+    temp =  sorted(tuples, key = lambda t : t[1])
+    print temp
+    return temp
+
+
     """
     Given a list of non-empty tuples, return a list sorted in
     increasing order by the last element in each tuple.
@@ -53,6 +88,19 @@ def sort_last(tuples):
 
 
 def remove_adjacent(nums):
+    i = 1
+    n = len(nums)
+    while i < n:
+        if nums[i] == nums[i-1]:
+            del nums[i]
+            #reduce length of n since element was deleted
+            n -= 1
+        else:
+            i += 1
+    print nums
+    return nums
+
+
     """
     Given a list of numbers, return a list where all adjacent equal
     elements have been reduced to a single element, so [1, 2, 2, 3]
@@ -72,6 +120,14 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
+    new_list = list1 + list2
+    new_list.sort()
+
+    print new_list
+    return new_list    
+
+
+
     """
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify
