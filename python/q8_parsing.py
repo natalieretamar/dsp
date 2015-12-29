@@ -8,7 +8,20 @@
 
 
 import csv
+#assigning dictionary reader to create a dictionary
+f_dict = csv.DictReader(open('/Users/natalieabril/ds/metis/prework/dsp/python/football.csv'))
+team = ''
+min_diff = 0
+for row in f_dict:
+    goals = int(row['Goals'])
+    goals_allowed = int(row['Goals Allowed'])
+    diff = abs(goals - goals_allowed)
+    if min_diff == 0 or min_diff > diff:
+        min_diff = diff
+        team = row['Team']
+print '%s has the smallest difference of goals. Difference = %d' %(team, min_diff)
 
+#I did not utilize the functions below
   def read_data(data):
    # COMPLETE THIS FUNCTION
 
