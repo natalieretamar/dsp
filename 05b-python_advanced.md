@@ -24,7 +24,8 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 3 types of positions. Assistant Professor of Biostatistics: 12, Professor of Biostatistics: 13, Associate Professor OF Biostatistics: 12. Note: 1 position was recorded as 'Assistant Professor in Biostatistics, which was recorded as 'Assistant Professor of Biostatistics'.
+
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
