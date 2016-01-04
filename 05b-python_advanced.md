@@ -19,22 +19,24 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 8 different types of degrees. MD:1, MA:1, SCD:6, BSED:1, PHD:31, MPH:2, MS:2, JD:1
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 3 types of positions. Assistant Professor of Biostatistics: 12, Professor of Biostatistics: 13, Associate Professor OF Biostatistics: 12. Note: 1 position was recorded as 'Assistant Professor in Biostatistics, which was recorded as 'Assistant Professor of Biostatistics'.
+
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 26 email addresses.
 
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 4 types of email domains:
+>> email.chop.edu:1, upenn.edu:12, cceb.med.upenn.edu:1, mail.med.upenn.edu:23
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
