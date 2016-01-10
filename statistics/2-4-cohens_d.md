@@ -11,7 +11,7 @@ import numpy as np
 #Two simple data list groups
 g1 = np.array([2, 4, 7, 3, 7, 35, 8, 9],int)
 g2 = np.array([7,13,5,1,26,4,],int)
-#Difference of means*
+#Difference of means
 mean_diff = g1.mean()-g2.mean()
 #Standard deviation squared
 sd_g1= np.std(g1)**2
