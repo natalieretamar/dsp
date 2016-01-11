@@ -14,3 +14,16 @@ for f in f_reader:
 
 pprint ( faculty_dict, width = 100)
 
+#question7 
+professor_dict= {}
+
+for prof in f_reader:
+    name= prof['name'].split(" ")
+    f_name, l_name = name[0], name[-1]
+    professor_dict[(f_name,l_name)] = [prof['degree'].upper().replace('.', ''),prof['title'], prof['email']]
+pprint(professor_dict.items()[:3])
+
+#Question 8
+pprint(sorted(professor_dict.items(), key=lambda (k, v): (k[0], k[-1]))[:3])
+ 
+
