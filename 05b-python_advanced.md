@@ -77,7 +77,7 @@ faculty_dict = { 'Ellenberg': [\
 Print the first 3 key and value pairs of the dictionary:
 
 Python output code on console:
-![](/Users/natalieabril/ds/metis/prework/dsp/img/output1.png?raw=true)
+![](/Users/natalieabril/ds/metis/prework/dsp/output1.png?raw=true)
 
 
 
