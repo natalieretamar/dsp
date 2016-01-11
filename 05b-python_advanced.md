@@ -76,7 +76,11 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> [('Putt',
+  [['mputt@mail.med.upenn.edu', 'PHD SCD', 'Professor of Biostatistics']]),
+ ('Feng',
+  [['ruifeng@upenn.edu', 'PHD', 'Assistant Professor of Biostatistics']]),
+ ('Bilker', [['warren@upenn.edu', 'PHD', 'Professor of Biostatistics']])]
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
