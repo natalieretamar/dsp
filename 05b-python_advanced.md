@@ -76,8 +76,8 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> (images/output1.png)
-Format: ![python output)
+![python output](img/output1.png)
+
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
