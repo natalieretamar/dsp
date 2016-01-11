@@ -4,6 +4,8 @@ from collections import defaultdict
 
 f_reader = csv.DictReader(open('/Users/natalieabril/ds/metis/prework/dsp/python/faculty.csv'), skipinitialspace = 'True')
 
+#Question 6
+
 faculty_dict=defaultdict(list)
 
 for f in f_reader:
