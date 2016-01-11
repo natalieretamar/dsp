@@ -76,8 +76,11 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
-Python output code on console:
-![](/Users/natalieabril/ds/metis/prework/dsp/output1.png?raw=true)
+[('Putt',
+  [['mputt@mail.med.upenn.edu', 'PHD SCD', 'Professor of Biostatistics']]),
+ ('Feng',
+  [['ruifeng@upenn.edu', 'PHD', 'Assistant Professor of Biostatistics']]),
+ ('Bilker', [['warren@upenn.edu', 'PHD', 'Professor of Biostatistics']])]
 
 
 
