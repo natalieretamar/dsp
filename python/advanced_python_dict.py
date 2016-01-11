@@ -1,20 +1,14 @@
 import csv
 from pprint import pprint
+from collections import defaultdict
+
 f_reader = csv.DictReader(open('/Users/natalieabril/ds/metis/prework/dsp/python/faculty.csv'), skipinitialspace = 'True')
-faculty_dict={}
+
+faculty_dict=defaultdict(list)
 
 for f in f_reader:
     name = f['name'].split(' ')
-    email = f['email']
-    degree= (f['degree'].upper()).replace('.', '')
-    title = f['title']
-
-    if name[-1] not in faculty_dict:
-
-        faculty_dict[name[-1]]= [[degree, title, email]]
-    else:
-        faculty_dict[name[-1]].append([[email, degree, title]])
-   
+    faculty_dict[name[-1]].append([ f['email'],f['degree'].upper().replace('.', ''),f['title']])
 
 pprint ( faculty_dict, width = 100)
 
